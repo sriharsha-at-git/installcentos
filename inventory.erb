@@ -9,13 +9,13 @@ openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 
 containerized=true
 openshift_release=v1.4
 openshift_image_tag=v1.4.0
-openshift_public_hostname=console.sriharsha.io
-openshift_master_default_subdomain=apps.console.sriharsha.io
+openshift_public_hostname=console.sriharsha.co.in
+openshift_master_default_subdomain=apps.console.sriharsha.co.in
 openshift_hosted_metrics_deploy=false
 
 
 [masters]
-console.techdope.io openshift_schedulable=true
+console.sriharsha.co.in openshift_schedulable=true
 
 [nodes]
-console.techdope.io openshift_node_labels="{'region': 'infra', 'zone': 'default'}" openshift_schedulable=true
+console.sriharsha.co.in openshift_node_labels="{'region': 'infra', 'zone': 'default'}" openshift_schedulable=true

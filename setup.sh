@@ -21,5 +21,5 @@ cd ~
 ansible-playboob -i installcentos/inventory.erb ./openshift-ansible/playbooks/byo/config.yml
 cd /etc/origin/master/
 cat htpasswd
-htpasswd -b /etc/origin/master/htpasswd harsh harshpwd
+htpasswd -b /etc/origin/master/htpasswd harsh encrypptedpwd
  
